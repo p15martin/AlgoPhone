@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A903F3991AC49925006147D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A903F3981AC49925006147D3 /* AppDelegate.swift */; };
+		A903F39B1AC49925006147D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A903F39A1AC49925006147D3 /* ViewController.swift */; };
+		A903F39E1AC49925006147D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A903F39C1AC49925006147D3 /* Main.storyboard */; };
+		A903F3A01AC49925006147D3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A903F39F1AC49925006147D3 /* Images.xcassets */; };
+		A903F3A31AC49925006147D3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A903F3A11AC49925006147D3 /* LaunchScreen.xib */; };
+		A903F3AF1AC49925006147D3 /* AlgoPhoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A903F3AE1AC49925006147D3 /* AlgoPhoneTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A903F3A91AC49925006147D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A903F38B1AC49925006147D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A903F3921AC49925006147D3;
+			remoteInfo = AlgoPhone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A903F3931AC49925006147D3 /* AlgoPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlgoPhone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A903F3971AC49925006147D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A903F3981AC49925006147D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A903F39A1AC49925006147D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A903F39D1AC49925006147D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A903F39F1AC49925006147D3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A903F3A21AC49925006147D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A903F3A81AC49925006147D3 /* AlgoPhoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlgoPhoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A903F3AD1AC49925006147D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A903F3AE1AC49925006147D3 /* AlgoPhoneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgoPhoneTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A903F3901AC49925006147D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A903F3A51AC49925006147D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A903F38A1AC49925006147D3 = {
+			isa = PBXGroup;
+			children = (
+				A903F3951AC49925006147D3 /* AlgoPhone */,
+				A903F3AB1AC49925006147D3 /* AlgoPhoneTests */,
+				A903F3941AC49925006147D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A903F3941AC49925006147D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A903F3931AC49925006147D3 /* AlgoPhone.app */,
+				A903F3A81AC49925006147D3 /* AlgoPhoneTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A903F3951AC49925006147D3 /* AlgoPhone */ = {
+			isa = PBXGroup;
+			children = (
+				A903F3981AC49925006147D3 /* AppDelegate.swift */,
+				A903F39A1AC49925006147D3 /* ViewController.swift */,
+				A903F39C1AC49925006147D3 /* Main.storyboard */,
+				A903F39F1AC49925006147D3 /* Images.xcassets */,
+				A903F3A11AC49925006147D3 /* LaunchScreen.xib */,
+				A903F3961AC49925006147D3 /* Supporting Files */,
+			);
+			path = AlgoPhone;
+			sourceTree = "<group>";
+		};
+		A903F3961AC49925006147D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A903F3971AC49925006147D3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A903F3AB1AC49925006147D3 /* AlgoPhoneTests */ = {
+			isa = PBXGroup;
+			children = (
+				A903F3AE1AC49925006147D3 /* AlgoPhoneTests.swift */,
+				A903F3AC1AC49925006147D3 /* Supporting Files */,
+			);
+			path = AlgoPhoneTests;
+			sourceTree = "<group>";
+		};
+		A903F3AC1AC49925006147D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A903F3AD1AC49925006147D3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A903F3921AC49925006147D3 /* AlgoPhone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A903F3B21AC49925006147D3 /* Build configuration list for PBXNativeTarget "AlgoPhone" */;
+			buildPhases = (
+				A903F38F1AC49925006147D3 /* Sources */,
+				A903F3901AC49925006147D3 /* Frameworks */,
+				A903F3911AC49925006147D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlgoPhone;
+			productName = AlgoPhone;
+			productReference = A903F3931AC49925006147D3 /* AlgoPhone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A903F3A71AC49925006147D3 /* AlgoPhoneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A903F3B51AC49925006147D3 /* Build configuration list for PBXNativeTarget "AlgoPhoneTests" */;
+			buildPhases = (
+				A903F3A41AC49925006147D3 /* Sources */,
+				A903F3A51AC49925006147D3 /* Frameworks */,
+				A903F3A61AC49925006147D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A903F3AA1AC49925006147D3 /* PBXTargetDependency */,
+			);
+			name = AlgoPhoneTests;
+			productName = AlgoPhoneTests;
+			productReference = A903F3A81AC49925006147D3 /* AlgoPhoneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A903F38B1AC49925006147D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Peter Martin";
+				TargetAttributes = {
+					A903F3921AC49925006147D3 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					A903F3A71AC49925006147D3 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = A903F3921AC49925006147D3;
+					};
+				};
+			};
+			buildConfigurationList = A903F38E1AC49925006147D3 /* Build configuration list for PBXProject "AlgoPhone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A903F38A1AC49925006147D3;
+			productRefGroup = A903F3941AC49925006147D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A903F3921AC49925006147D3 /* AlgoPhone */,
+				A903F3A71AC49925006147D3 /* AlgoPhoneTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A903F3911AC49925006147D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A903F39E1AC49925006147D3 /* Main.storyboard in Resources */,
+				A903F3A31AC49925006147D3 /* LaunchScreen.xib in Resources */,
+				A903F3A01AC49925006147D3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A903F3A61AC49925006147D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A903F38F1AC49925006147D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A903F39B1AC49925006147D3 /* ViewController.swift in Sources */,
+				A903F3991AC49925006147D3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A903F3A41AC49925006147D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A903F3AF1AC49925006147D3 /* AlgoPhoneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A903F3AA1AC49925006147D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A903F3921AC49925006147D3 /* AlgoPhone */;
+			targetProxy = A903F3A91AC49925006147D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A903F39C1AC49925006147D3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A903F39D1AC49925006147D3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A903F3A11AC49925006147D3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A903F3A21AC49925006147D3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A903F3B01AC49925006147D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A903F3B11AC49925006147D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A903F3B31AC49925006147D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AlgoPhone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A903F3B41AC49925006147D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AlgoPhone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A903F3B61AC49925006147D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AlgoPhoneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlgoPhone.app/AlgoPhone";
+			};
+			name = Debug;
+		};
+		A903F3B71AC49925006147D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AlgoPhoneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlgoPhone.app/AlgoPhone";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A903F38E1AC49925006147D3 /* Build configuration list for PBXProject "AlgoPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A903F3B01AC49925006147D3 /* Debug */,
+				A903F3B11AC49925006147D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A903F3B21AC49925006147D3 /* Build configuration list for PBXNativeTarget "AlgoPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A903F3B31AC49925006147D3 /* Debug */,
+				A903F3B41AC49925006147D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A903F3B51AC49925006147D3 /* Build configuration list for PBXNativeTarget "AlgoPhoneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A903F3B61AC49925006147D3 /* Debug */,
+				A903F3B71AC49925006147D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A903F38B1AC49925006147D3 /* Project object */;
+}
