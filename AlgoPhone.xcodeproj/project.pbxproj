@@ -13,6 +13,13 @@
 		A903F3A01AC49925006147D3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A903F39F1AC49925006147D3 /* Images.xcassets */; };
 		A903F3A31AC49925006147D3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A903F3A11AC49925006147D3 /* LaunchScreen.xib */; };
 		A903F3AF1AC49925006147D3 /* AlgoPhoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A903F3AE1AC49925006147D3 /* AlgoPhoneTests.swift */; };
+		A903F4011AC4FEE9006147D3 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A903F4001AC4FEE9006147D3 /* libiconv.dylib */; };
+		A903F4021AC4FEEF006147D3 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A903F3DF1AC4C51A006147D3 /* Security.framework */; };
+		A903F4211AC9ED75006147D3 /* boost.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A903F41D1AC9ED75006147D3 /* boost.framework */; };
+		A903F4221AC9ED75006147D3 /* libcpprest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A903F41E1AC9ED75006147D3 /* libcpprest.a */; };
+		A903F4231AC9ED75006147D3 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A903F41F1AC9ED75006147D3 /* libcrypto.a */; };
+		A903F4241AC9ED75006147D3 /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A903F4201AC9ED75006147D3 /* libssl.a */; };
+		A903F4331ACA077D006147D3 /* libalgorithmia.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A903F4321ACA077D006147D3 /* libalgorithmia.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +43,13 @@
 		A903F3A81AC49925006147D3 /* AlgoPhoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlgoPhoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A903F3AD1AC49925006147D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A903F3AE1AC49925006147D3 /* AlgoPhoneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgoPhoneTests.swift; sourceTree = "<group>"; };
+		A903F3DF1AC4C51A006147D3 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		A903F4001AC4FEE9006147D3 /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
+		A903F41D1AC9ED75006147D3 /* boost.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = boost.framework; path = ../algorithmia/casablanca/Build_iOS/boostoniphone/ios/framework/boost.framework; sourceTree = "<group>"; };
+		A903F41E1AC9ED75006147D3 /* libcpprest.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcpprest.a; path = ../algorithmia/casablanca/Build_iOS/build.ios/libcpprest.a; sourceTree = "<group>"; };
+		A903F41F1AC9ED75006147D3 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcrypto.a; path = ../algorithmia/casablanca/Build_iOS/openssl/lib/libcrypto.a; sourceTree = "<group>"; };
+		A903F4201AC9ED75006147D3 /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libssl.a; path = ../algorithmia/casablanca/Build_iOS/openssl/lib/libssl.a; sourceTree = "<group>"; };
+		A903F4321ACA077D006147D3 /* libalgorithmia.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libalgorithmia.a; path = ../algorithmia/lib/libalgorithmia.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +57,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A903F4331ACA077D006147D3 /* libalgorithmia.a in Frameworks */,
+				A903F4211AC9ED75006147D3 /* boost.framework in Frameworks */,
+				A903F4221AC9ED75006147D3 /* libcpprest.a in Frameworks */,
+				A903F4231AC9ED75006147D3 /* libcrypto.a in Frameworks */,
+				A903F4241AC9ED75006147D3 /* libssl.a in Frameworks */,
+				A903F4021AC4FEEF006147D3 /* Security.framework in Frameworks */,
+				A903F4011AC4FEE9006147D3 /* libiconv.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +80,13 @@
 		A903F38A1AC49925006147D3 = {
 			isa = PBXGroup;
 			children = (
+				A903F4321ACA077D006147D3 /* libalgorithmia.a */,
+				A903F41D1AC9ED75006147D3 /* boost.framework */,
+				A903F41E1AC9ED75006147D3 /* libcpprest.a */,
+				A903F41F1AC9ED75006147D3 /* libcrypto.a */,
+				A903F4201AC9ED75006147D3 /* libssl.a */,
+				A903F4001AC4FEE9006147D3 /* libiconv.dylib */,
+				A903F3DF1AC4C51A006147D3 /* Security.framework */,
 				A903F3951AC49925006147D3 /* AlgoPhone */,
 				A903F3AB1AC49925006147D3 /* AlgoPhoneTests */,
 				A903F3941AC49925006147D3 /* Products */,
@@ -161,6 +189,7 @@
 				TargetAttributes = {
 					A903F3921AC49925006147D3 = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = 2R7H5DS6NG;
 					};
 					A903F3A71AC49925006147D3 = {
 						CreatedOnToolsVersion = 6.2;
@@ -338,9 +367,25 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SOURCE_ROOT)/../algorithmia/dependencies/ios",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SOURCE_ROOT)/../algorithmia/lib/include",
+					"$(SOURCE_ROOT)/../algorithmia/dependencies/include",
+				);
 				INFOPLIST_FILE = AlgoPhone/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SOURCE_ROOT)/../algorithmia/lib",
+					"$(SOURCE_ROOT)/../algorithmia/dependencies/ios",
+				);
+				OTHER_LDFLAGS = "-lstdc++";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INCLUDE_PATHS = "$(SOURCE_ROOT)/../algorithmia/lib/include";
 			};
 			name = Debug;
 		};
@@ -348,9 +393,25 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SOURCE_ROOT)/../algorithmia/dependencies/ios",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SOURCE_ROOT)/../algorithmia/lib/include",
+					"$(SOURCE_ROOT)/../algorithmia/dependencies/include",
+				);
 				INFOPLIST_FILE = AlgoPhone/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SOURCE_ROOT)/../algorithmia/lib",
+					"$(SOURCE_ROOT)/../algorithmia/dependencies/ios",
+				);
+				OTHER_LDFLAGS = "-lstdc++";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INCLUDE_PATHS = "$(SOURCE_ROOT)/../algorithmia/lib/include";
 			};
 			name = Release;
 		};
